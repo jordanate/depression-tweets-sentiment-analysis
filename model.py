@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 
+from nltk.corpus import stopwords
 
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer(language="english")
