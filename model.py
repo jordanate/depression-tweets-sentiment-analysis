@@ -24,7 +24,7 @@ with open('model3.pkl' , 'rb') as f:
 
 st.title('Depression in Tweets Detector')
 
-n = st.text_input('Type a tweet', step=1)
+n = st.text_input('Type a tweet')
 
 st.write('Possibility of Depression?')
 
