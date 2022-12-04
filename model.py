@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-with open('model_pkl' , 'rb') as f:
+with open('model3.pkl' , 'rb') as f:
     lr = pickle.load(f)
 
 st.title('Depression in Tweets Detector')
