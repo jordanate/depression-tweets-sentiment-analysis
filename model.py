@@ -26,6 +26,8 @@ st.title('Depression in Tweets Detector')
 
 n = st.text_input('Type a tweet')
 
+n = [n]
+
 st.write('Possibility of Depression?')
 
 prediction = lr.predict(n)
