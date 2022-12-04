@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import string
 import re
-import matplotlib.pyplot as plt
+
 import nltk
 from nltk.tokenize import regexp_tokenize, word_tokenize, RegexpTokenizer
 from nltk.corpus import stopwords, wordnet
