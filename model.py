@@ -28,7 +28,9 @@ n = st.text_input('Type a tweet')
 
 n = [n]
 
-st.write('Possibility of Depression?')
+sub_heading = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">Possibility of Depression?</p>'
+
+st.markdown(sub_heading, unsafe_allow_html=True)
 
 prediction = lr.predict(n)
 
