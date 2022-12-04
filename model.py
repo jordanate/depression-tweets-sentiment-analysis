@@ -32,4 +32,7 @@ st.write('Possibility of Depression?')
 
 prediction = lr.predict(n)
 
-st.write(f'{prediction}')
+if prediction == [0]:
+	st.write('No')
+if prediction == [1]:
+	st.write('Yes')
