@@ -22,17 +22,31 @@ stemmed_stopwords = [stemmer.stem(word) for word in stopwords_list]
 with open('model3.pkl' , 'rb') as f:
     lr = pickle.load(f)
 
-st.title('Depression in Tweets Detector')
+title = '<p style="font-weight:bold; color:Black; font-size:45px;">Depression in Tweets Detector</p>'
 
-n = st.text_input('Type a tweet')
+st.markdown(title, unsafe_allow_html=True)
+
+
+prompt = '<p style="font-weight:bold; color:Black; font-size:20px;">Type a Tweet in the Box Below: </p>'
+
+st.markdown(prompt, unsafe_allow_html=True)
+
+n = st.text_input(' ')
 
 n = [n]
 
-st.write('Possibility of Depression?')
+
+sub_title = '<p style="font-weight:bold; color:Black; font-size:30px;">Possibility of Depression?</p>'
+
+st.markdown(sub_title, unsafe_allow_html=True)
 
 prediction = lr.predict(n)
 
+no = '<p style="color:Black; font-size:20px;">No</p>'
+yes = '<p style="color:Black; font-size:20px;">Yes</p>'
+
 if prediction == [0]:
-	st.write('No')
+	st.markdown(no, unsafe_allow_html=True)
+
 if prediction == [1]:
-	st.write('Yes')
+	st.markdown(yes, unsafe_allow_html=True)
