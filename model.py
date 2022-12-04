@@ -6,4 +6,4 @@ n = st.number_input('Type a tweet', step=1)
 
 st.write('Possibility of Depression?')
 
-st.write(f'{n} + 1 = {n+1}')
+st.write(f'{n}')
