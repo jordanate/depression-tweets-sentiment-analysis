@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+from PIL import Image
 
 from nltk.corpus import stopwords
 
@@ -21,6 +22,10 @@ stemmed_stopwords = [stemmer.stem(word) for word in stopwords_list]
 
 with open('model3a.pkl' , 'rb') as f:
     lr = pickle.load(f)
+
+twitterlogo = Image.open('images/twitter_logo.png')
+
+st.image(twitterlogo, width=100)
 
 title = '<p style="font-weight:bold; color:Black; font-size:45px;">Depression in Tweets Detector</p>'
 
