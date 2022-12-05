@@ -15,10 +15,17 @@
 
 ## Conclusion
 
+### Limitations
+
+### Next Steps
+
 ## Repository Structure
+```
 ├── data
 ├── images
 ├── .gitignore
 ├── presentation.pdf
 ├── sentiment-analysis-phase-4-project.ipynb
 └── README.md
+
+```
