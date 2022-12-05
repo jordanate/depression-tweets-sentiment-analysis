@@ -24,7 +24,9 @@
 ├── data
 ├── images
 ├── .gitignore
+├── README.md
+├── model.py
+├── model3a.pkl
 ├── presentation.pdf
-├── sentiment-analysis-phase-4-project.ipynb
-└── README.md
+└── sentiment-analysis-phase-4-project.ipynb
 ```
