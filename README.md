@@ -33,7 +33,12 @@
 
 **BetterHelp Teletherapy:** https://www.betterhelp.com/
 
+## For More Information
+For a full analysis, please look at my Jupyter Notebook
+For a more concise summary, please review my presentation.
 
+
+For any additional questions, please contact Jordana Tepper at jtepper724@gmail.com
 
 ## Repository Structure
 ```
