@@ -19,7 +19,7 @@ def stem_and_tokenize(document):
 
 stemmed_stopwords = [stemmer.stem(word) for word in stopwords_list]
 
-with open('model3.pkl' , 'rb') as f:
+with open('model3a.pkl' , 'rb') as f:
     lr = pickle.load(f)
 
 title = '<p style="font-weight:bold; color:Black; font-size:45px;">Depression in Tweets Detector</p>'
