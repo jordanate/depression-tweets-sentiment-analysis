@@ -27,6 +27,23 @@ The data that I used for this project comes from a dataset from [Kaggle](https:/
 
 ## Modeling
 
+After doing some data cleaning, I performed an 75%-25% Train-Test Split on the data with indication of depression as the target variable and tweets as the predictor. Next, I created several classification models.
+
+Recall was the main metric used to determine the accuracy of my model due to the fact that I was interested in using the model to detect potential depression, and therefore, a false negative is more costly than a false positive.
+
+In this project, a false negative is a case where a tweet is classified as NOT being a potential display of depression when it truly is, and a false positive is a case where a tweet is classified as being a potential display of depression when it is not.
+
+The following models were used on the testing set:
+
+1a. Count Vectorizer and Random Forest (Basic Stemmed Stop Words)   
+1b. Count Vectorizer and Random Forest (Amended Stemmed Stop Words)   
+2a. TF-IDF Vectorizer and Random Forest (Basic Stemmed Stop Words)    
+2b. TF-IDF Vectorizer and Random Forest (Amended Stemmed Stop Words)    
+**3a. Count Vectorizer and Multinomial Naive Bayes (Basic Stemmed Stop Words) - Best Model**    
+3b. Count Vectorizer and Multinomial Naive Bayes (Amended Stemmed Stop Words)   
+4a. TF-IDF and Multinomial Naive Bayes (Basic Stemmed Stop Words)   
+4b. TF-IDF and Multinomial Naive Bayes (Amended Stemmed Stop Words) 
+
 ## Evaluation
 
 ## Conclusions
