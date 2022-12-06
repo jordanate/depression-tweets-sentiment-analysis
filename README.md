@@ -31,6 +31,12 @@ The data that I used for this project comes from a dataset from [Kaggle](https:/
 
 ### Visualizing Word Frequency in the Dataset
 
+<p align = 'center'>
+  <img width = '670' height = '580' src="https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/word_cloud.png"> 
+</p>
+
+![word_freq.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/word_freq.png)
+
 ## Modeling
 
 After doing some data cleaning, I performed an 75%-25% Train-Test Split on the data with indication of depression as the target variable and tweets as the predictor. Next, I created several classification models.
