@@ -52,10 +52,12 @@ The following models were used on the testing set:
 
 With recall being the primary metric, the best models are Models 2a and 3a. More specifically, Model 2a has a recall of 98.65% (8 false negatives) and Model 3a has a recall of 98.99% (6 false negatives). Despite Model 3a having 2 fewer false negatives, I contemplated making my final model Model 2a rather than Model 3a due to the fact that it has no false positives while Model 3a has 91 false positives. In other words, Model 2a minimizes both false negatives and false positives. Furthermore, there is not much difference in the recall percentages of the two models, and a difference of 2 false negatives does not seem too significant. Nevertheless, after doing some sample tweets, I decided that my final model is Model 3a. While both models were flawed with some of the sample tweets, the specific examples that led me to this decision are "I want to die", "Kill me", and "I need help." If anyone were to see these tweets, they would likely believe that the user is potentially struggling with depression or other mental health concerns, so when Model 2a did not pick up on such patterns, I decided that Model 3a is better.
 
-### Model 3a Confusion Matrix
+### Final Model Confusion Matrix
+![confusion_matrix.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/confusion_matrix.png)
 
+### Final Model ROC-AUC
 
-### Model 3a ROC-AUC
+![roc_auc.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/roc_auc.png)
 
 ## Conclusions
 
