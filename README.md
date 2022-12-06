@@ -25,7 +25,8 @@
 
 **United States Suicide and Crisis Lifeline (24/7):** Call 988 (No data charges)
 
-**NAMI HelpLine (M-F, 10am - 10pm, ET):** Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at helpline@nami.org
+**NAMI HelpLine (M-F, 10am - 10pm, ET):** Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at <a href="helpline@nami.org">helpline@nami.org</a> 
+
 
 **SAMHSA’s (Substance Abuse and Mental Health Services Administration) National Helpline (24/7):** Call 1-800-662-HELP (4357)
 
