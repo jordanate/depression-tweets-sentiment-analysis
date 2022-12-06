@@ -46,8 +46,8 @@ n = st.text_input(' ', max_chars=280)
 
 button = st.button('Enter')
 
-disclaimer_p1= '<p style="color:Black; font-size:15px;"><em>Disclaimer: This is not a diagnostic tool.</em></p>'
-disclaimer_p2= '<p style="color:Black; font-size:15px;"><em>If you, or someone you know, is experiencing symptoms of depression, please refer to the resources listed below.</em></p>' 
+disclaimer_p1= '<p style="color:Black; font-size:17px;"><em>Disclaimer: This is not a diagnostic tool.</em></p>'
+disclaimer_p2= '<p style="color:Black; font-size:17px;"><em>If you, or someone you know, is experiencing symptoms of depression, please refer to the resources listed below.</em></p>' 
 
 st.markdown(disclaimer_p1, unsafe_allow_html=True)
 st.markdown(disclaimer_p2, unsafe_allow_html=True)
