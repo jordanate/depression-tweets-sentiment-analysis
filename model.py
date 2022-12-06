@@ -56,25 +56,21 @@ if prediction == [0]:
 if prediction == [1]:
 	st.markdown(yes, unsafe_allow_html=True)
 
+st.markdown("***")
 
-
-
-
-
-
-resources_title = '<p style="font-weight:bold; color:Black; font-size:20px;">Mental Health Resources</p>'
+resources_title = '<p style="font-weight:bold; color:Black; font-size:25px;">Mental Health Resources</p>'
 
 st.markdown(resources_title, unsafe_allow_html=True)
 
-cl = '<p style="color:Black; font-size:14px;">United States Suicide and Crisis Lifeline (24/7): Call 988 (No data charges)</p>'
+cl = '<p style="color:Black; font-size:18px;">United States Suicide and Crisis Lifeline (24/7): Call 988 (No data charges)</p>'
 
-nami = '<p style="color:Black; font-size:14px;">NAMI HelpLine (M-F, 10am - 10pm, ET): Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at <a href="mailto:helpline@nami.org"> helpline@nami.org </a> </p>'
+nami = '<p style="color:Black; font-size:18px;">NAMI HelpLine (M-F, 10am - 10pm, ET): Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at <a href="mailto:helpline@nami.org"> helpline@nami.org </a> </p>'
 
-samhsa = '<p style="color:Black; font-size:14px;">SAMHSA’s (Substance Abuse and Mental Health Services Administration) National Helpline (24/7): Call 1-800-662-HELP (4357)</p>'
+samhsa = '<p style="color:Black; font-size:18px;">SAMHSA’s (Substance Abuse and Mental Health Services Administration) National Helpline (24/7): Call 1-800-662-HELP (4357)</p>'
 
-textline = '<p style="color:Black; font-size:14px;">Crisis Text Line (24/7): Text HOME to 741741</p>'
+textline = '<p style="color:Black; font-size:18px;">Crisis Text Line (24/7): Text HOME to 741741</p>'
 
-betterhelp = '<p style="color:Black; font-size:14px;">BetterHelp Teletherapy: https://www.betterhelp.com/</p>'
+betterhelp = '<p style="color:Black; font-size:18px;">BetterHelp Teletherapy: https://www.betterhelp.com/</p>'
 
 st.markdown(cl, unsafe_allow_html=True)
 st.markdown(nami, unsafe_allow_html=True)
