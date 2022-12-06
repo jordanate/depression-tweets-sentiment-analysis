@@ -76,7 +76,7 @@ With recall being the primary metric, the best models are Models 2a and 3a. More
 
 - The model fails to understand slang words such as 'emo' and 'depro'
 - The model also fails to properly interpret negation in statements such as, "I am NOT depressed" or "I am NOT okay"
-- These two limitations likely root from the fact that this dataset contains only 10,313 tweets meaning that the model cannot capture every pattern of text that exists online.
+- These two limitations likely root from the fact that this dataset contains only 10,313 tweets meaning that the model cannot capture every pattern of text and language that exists online.
 
 ### Next Steps
 
