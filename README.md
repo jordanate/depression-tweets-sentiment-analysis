@@ -15,9 +15,15 @@ I decided to utilize recall as my primary metric because a false negative (class
 
 ## Business Problem
 
+As of 2021, approximately 280 million people suffer from depression worldwide [(WHO)](https://www.who.int/news-room/fact-sheets/detail/depression). Furthermore, within the first year of the COVID-19 pandemic, the global prevalence of anxiety and depression increased by 25% [(WHO)](https://www.who.int/news/item/02-03-2022-covid-19-pandemic-triggers-25-increase-in-prevalence-of-anxiety-and-depression-worldwide). In the United States specifically, studies have shown that 1 in 10 Americans suffer from depression [(USA News)](https://www.usnews.com/news/health-news/articles/2022-09-19/depression-affects-almost-1-in-10-americans). With such high rates of mental health disorders - depression, in particular - there is no question that action should be taken to aid individuals in receiving the support and care they need. One way that this can be done is through the utilization of social media. 
+
+According to an analysis from [Kepios](https://datareportal.com/social-media-users#:~:text=Analysis%20from%20Kepios%20shows%20that,of%20the%20total%20global%20population.), over 59% of the world uses social media. Regarding the United States alone, this number rises to 70% [(Pew Research Center)](https://www.pewresearch.org/internet/fact-sheet/social-media/). Therefore, it is no surprise that, often, such areas overlap, and individuals display or provide an indication of their mental health struggles on social media. So, with the abundance of posts and data that social media outlets receive daily, it would be beneficial to society to use such information to detect potential indications of mental health disorders, such as depression, and generate targeted advertisements that provide support and resources for the users who may be in need.
+
+For my project, Twitter is the stakeholder and has asked me to utilize existing tweets from their platform to create a model that detects potential signs of depression through language patterns. Twitter then plans to put this model into practice by distributing mental health resources using the process of targeted advertising.
+
 ## Data Understanding
 
-The data that I used for this project comes from a dataset from Kaggle titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
+The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
 
 ## Modeling
 
