@@ -1,5 +1,5 @@
 # Phase 4 Project - Sentiment Analysis of Depression in Tweets
-![images/depression_tweeting.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/depression_tweeting.png)
+![images/depression_social_media.jpg](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/depression_social_media.jpg)
 
 **By:** Jordana Tepper
 
