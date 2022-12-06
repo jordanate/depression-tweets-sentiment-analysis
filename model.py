@@ -1,5 +1,6 @@
 import streamlit as st
 import pickle
+import nltk
 from PIL import Image
 
 from nltk.corpus import stopwords
