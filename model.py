@@ -34,27 +34,35 @@ st.markdown(title, unsafe_allow_html=True)
 
 prompt = '<p style="font-weight:bold; color:Black; font-size:22px;">Type a Tweet in the Box Below: </p>'
 
-st.markdown(prompt, unsafe_allow_html=True)
+st.markdown(prompt, unsafe_allow_html=True) 
 
-n = st.text_input(' ')
-
-n = [n]
+n = st.text_input(' ', max_chars=280)
 
 
-sub_title = '<p style="font-weight:bold; color:Black; font-size:30px;">Possibility of Depression?</p>'
+button = st.button('Enter')
 
-st.markdown(sub_title, unsafe_allow_html=True)
+disclaimer_p1= '<p style="color:Black; font-size:15px;"><em>Disclaimer: This is not a diagnostic tool.</em></p>'
+disclaimer_p2= '<p style="color:Black; font-size:15px;"><em>If you, or someone you know, is experiencing symptoms of depression, please refer to the resources listed below.</em></p>' 
 
-prediction = lr.predict(n)
+st.markdown(disclaimer_p1, unsafe_allow_html=True)
+st.markdown(disclaimer_p2, unsafe_allow_html=True)
 
-no = '<p style="color:Black; font-size:25px;">No</p>'
-yes = '<p style="color:Black; font-size:25px;">Yes</p>'
 
-if prediction == [0]:
-	st.markdown(no, unsafe_allow_html=True)
+if button: 
+	sub_title = '<p style="font-weight:bold; color:Black; font-size:30px;">Indication of Depression?</p>'
 
-if prediction == [1]:
-	st.markdown(yes, unsafe_allow_html=True)
+	st.markdown(sub_title, unsafe_allow_html=True)
+
+	n = [n]
+	prediction = lr.predict(n)
+
+	no = '<p style="color:Black; font-size:25px;">No</p>'
+	yes = '<p style="color:Black; font-size:25px;">Yes</p>'
+
+	if prediction == [0]:
+		st.markdown(no, unsafe_allow_html=True)
+	else:
+		st.markdown(yes, unsafe_allow_html=True)
 
 st.markdown("***")
 
