@@ -29,6 +29,8 @@ For my project, Twitter is the stakeholder and has asked me to utilize existing 
 
 The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
 
+### Visualizing Word Frequency in the Dataset
+
 ## Modeling
 
 After doing some data cleaning, I performed an 75%-25% Train-Test Split on the data with indication of depression as the target variable and tweets as the predictor. Next, I created several classification models.
@@ -70,8 +72,6 @@ With recall being the primary metric, the best models are Models 2a and 3a. More
 
 ## Conclusions
 
-### Recommendations
-
 ### Limitations
 
 - The model fails to understand slang words such as 'emo' and 'depro'
@@ -104,7 +104,6 @@ If I had access to more data, I would do the following:
 For a full analysis, please look at my [Jupyter Notebook](./sentiment-analysis-phase-4-project.ipynb)
 
 For a more concise summary, please review my [presentation]().
-
 
 For any additional questions, please contact Jordana Tepper at <a href="mailto:jtepper724@gmail.com">jtepper724@gmail.com</a> 
 
