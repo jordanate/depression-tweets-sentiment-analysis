@@ -1,12 +1,15 @@
 import streamlit as st
 import pickle
 
-
 from PIL import Image
+import nltk
+nltk.download('SnowballStemmer')
+nltk.download('stopwords')
 
 from nltk.corpus import stopwords
 
 from nltk.stem.snowball import SnowballStemmer
+
 stemmer = SnowballStemmer(language="english")
 stopwords_list = stopwords.words('english')
 
