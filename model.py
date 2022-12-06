@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import nltk
+nltk.download('wordnet')
 from PIL import Image
 
 from nltk.corpus import stopwords
