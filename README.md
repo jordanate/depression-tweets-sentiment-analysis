@@ -34,11 +34,13 @@
 **BetterHelp Teletherapy:** https://www.betterhelp.com/
 
 ## For More Information
-For a full analysis, please look at my Jupyter Notebook
-For a more concise summary, please review my presentation.
+
+For a full analysis, please look at my [Jupyter Notebook](./sentiment-analysis-phase-4-project.ipynb)
+
+For a more concise summary, please review my [presentation]().
 
 
-For any additional questions, please contact Jordana Tepper at jtepper724@gmail.com
+For any additional questions, please contact Jordana Tepper at <a href="mailto:jtepper724@gmail.com">jtepper724@gmail.com</a> 
 
 ## Repository Structure
 ```
