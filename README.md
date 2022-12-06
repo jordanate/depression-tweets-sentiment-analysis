@@ -17,17 +17,29 @@ I decided to utilize recall as my primary metric because a false negative (class
 
 ## Data Understanding
 
+The data that I used for this project comes from a dataset from Kaggle titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
+
 ## Modeling
 
 ## Evaluation
 
-## Conclusion
+## Conclusions
 
 ### Recommendations
 
 ### Limitations
 
+- The model fails to understand slang words such as 'emo' and 'depro'
+- The model also fails to properly interpret negation in statements such as, "I am NOT depressed" or "I am NOT okay"
+- These two limitations likely root from the fact that this dataset contains only 10,313 tweets meaning that the model cannot capture every pattern of text that exists online.
+
 ### Next Steps
+
+If I had access to more data, I would do the following:
+
+- Acquire a larger dataset
+- Acquire more data that accounts for slang words
+- Develop models that incorporates other languages
 
 ## Mental Health Resources
 
