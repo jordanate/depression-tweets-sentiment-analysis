@@ -116,6 +116,7 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ├── README.md
 ├── model.py
 ├── model3a.pkl
+├── requirements.txt
 ├── presentation.pdf
 └── sentiment-analysis-phase-4-project.ipynb
 ```
