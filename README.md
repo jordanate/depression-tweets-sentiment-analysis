@@ -61,7 +61,7 @@ The following models were used on the testing set:
 4b. TF-IDF and Multinomial Naive Bayes (Amended Stemmed Stop Words)
 
 <p align = 'center'>
-  <img width = '2200' height = '300' src="https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/stats_graph.png"> 
+  <img width = '1500' height = '270' src="https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/stats_graph.png"> 
 </p>
 
 ## Evaluation
