@@ -29,6 +29,8 @@ For my project, Twitter is the stakeholder and has asked me to utilize existing 
 
 The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
 
+## Data Analysis
+
 ### Visualizing Word Frequency in the Dataset
 
 <p align = 'center'>
