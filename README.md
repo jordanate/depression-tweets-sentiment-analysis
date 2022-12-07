@@ -60,7 +60,9 @@ The following models were used on the testing set:
 4a. TF-IDF and Multinomial Naive Bayes (Basic Stemmed Stop Words)   
 4b. TF-IDF and Multinomial Naive Bayes (Amended Stemmed Stop Words)
 
-![stats_graph.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/stats_graph.png)
+<p align = 'center'>
+  <img width = '2200' height = '300' src="https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/stats_graph.png"> 
+</p>
 
 ## Evaluation
 
