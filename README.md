@@ -27,7 +27,7 @@ For my project, Twitter is the stakeholder and has asked me to utilize existing 
 
 ## Data Understanding
 
-The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
+The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/datasets/gargmanas/sentimental-analysis-for-tweets) titled "Sentimental Analysis for Tweets." This source is comprised of 10,313 tweets taken from Twitter, with each entry classified as either an indication of depression (denoted by 1) or not an indication of depression (denoted by 0).
 
 ## Data Analysis
 
@@ -43,7 +43,7 @@ The data that I used for this project comes from a dataset from [Kaggle](https:/
 
 ## Modeling
 
-After doing some data cleaning, I performed an 75%-25% Train-Test Split on the data with indication of depression as the target variable and tweets as the predictor. Next, I created several classification models.
+After doing some data cleaning, I performed a 75%-25% Train-Test Split on the data with an indication of depression as the target variable and tweets as the predictor. Next, I created several classification models.
 
 Recall was the main metric used to determine the accuracy of my model due to the fact that I was interested in using the model to detect potential depression, and therefore, a false negative is more costly than a false positive.
 
@@ -66,7 +66,7 @@ The following models were used on the testing set:
 
 ### Why Model 3a?
 
-With recall being the primary metric, the best models are Models 2a and 3a. More specifically, Model 2a has a recall of 98.65% (8 false negatives) and Model 3a has a recall of 98.99% (6 false negatives). Despite Model 3a having 2 fewer false negatives, I contemplated making my final model Model 2a rather than Model 3a due to the fact that it has no false positives while Model 3a has 91 false positives. In other words, Model 2a minimizes both false negatives and false positives. Furthermore, there is not much difference in the recall percentages of the two models, and a difference of 2 false negatives does not seem too significant. Nevertheless, after doing some sample tweets, I decided that my final model is Model 3a. While both models were flawed with some of the sample tweets, the specific examples that led me to this decision are "I want to die", "Kill me", and "I need help." If anyone were to see these tweets, they would likely believe that the user is potentially struggling with depression or other mental health concerns, so when Model 2a did not pick up on such patterns, I decided that Model 3a is better.
+With recall being the primary metric, the best models are Models 2a and 3a. More specifically, Model 2a has a recall of 98.65% (8 false negatives), and Model 3a has a recall of 98.99% (6 false negatives). Despite Model 3a having 2 fewer false negatives, I contemplated making my final model Model 2a rather than Model 3a due to the fact that it has no false positives while Model 3a has 91 false positives. In other words, Model 2a minimizes both false negatives and false positives. Furthermore, there is not much difference in the recall percentages of the two models, and a difference of 2 false negatives does not seem too significant. Nevertheless, after doing some sample tweets, I decided that my final model is Model 3a. While both models were flawed with some of the sample tweets, the specific examples that led me to this decision are "I want to die", "Kill me", and "I need help." If anyone were to see these tweets, they would likely believe that the user is potentially struggling with depression or other mental health concerns, so when Model 2a did not pick up on such patterns, I decided that Model 3a is better.
 
 ### Final Model Confusion Matrix
 
