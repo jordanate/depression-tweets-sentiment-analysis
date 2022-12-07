@@ -13,7 +13,7 @@ This project utilizes a dataset containing various tweets from Twitter to conduc
 
 Using Natural Language Processing, I implement four different types of models to produce the highest recall score; such models include Random Forest with Count Vectorization, Random Forest with TF-IDF Vectorization, Multinomial Naive Bayes with Count Vectorization, and Multinomial Naive Bayes with TF-IDF Vectorization. Furthermore, each of the four models was subdivided into two, more specific models: one with basic stop words and one with curated stop words.
 
-After reviewing the outputs from each of the models, the highest recall was 98.99%.
+After reviewing the outputs from each model, the highest recall was 98.99%.
 
 I decided to utilize recall as my primary metric because a false negative (classifying a tweet as NOT a potential display of depression when it is) is more costly than a false positive (classifying a tweet as a potential display of depression when it is NOT). In other words, missing an indication of potential depression and not providing the necessary resources can be more harmful than falsely indicating potential depression and providing such resources.
 
@@ -21,7 +21,7 @@ I decided to utilize recall as my primary metric because a false negative (class
 
 As of 2021, approximately 280 million people suffer from depression worldwide [(WHO)](https://www.who.int/news-room/fact-sheets/detail/depression). Furthermore, within the first year of the COVID-19 pandemic, the global prevalence of anxiety and depression increased by 25% [(WHO)](https://www.who.int/news/item/02-03-2022-covid-19-pandemic-triggers-25-increase-in-prevalence-of-anxiety-and-depression-worldwide). In the United States specifically, studies have shown that 1 in 10 Americans suffer from depression [(USA News)](https://www.usnews.com/news/health-news/articles/2022-09-19/depression-affects-almost-1-in-10-americans). With such high rates of mental health disorders - depression, in particular - there is no question that action should be taken to aid individuals in receiving the support and care they need. One way that this can be done is through the utilization of social media. 
 
-According to an analysis from [Kepios](https://datareportal.com/social-media-users#:~:text=Analysis%20from%20Kepios%20shows%20that,of%20the%20total%20global%20population.), over 59% of the world uses social media. Regarding the United States alone, this number rises to 70% [(Pew Research Center)](https://www.pewresearch.org/internet/fact-sheet/social-media/). Therefore, it is no surprise that, often, such areas overlap, and individuals display or provide an indication of their mental health struggles on social media. So, with the abundance of posts and data that social media outlets receive daily, it would be beneficial to society to use such information to detect potential indications of mental health disorders, such as depression, and generate targeted advertisements that provide support and resources for the users who may be in need.
+According to an analysis from [Kepios](https://datareportal.com/social-media-users#:~:text=Analysis%20from%20Kepios%20shows%20that,of%20the%20total%20global%20population.), over 59% of the world uses social media. Regarding the United States alone, this number rises to 70% [(Pew Research Center)](https://www.pewresearch.org/internet/fact-sheet/social-media/). Therefore, it is no surprise that, often, such areas overlap, and individuals display or provide an indication of their mental health struggles on social media. So, with the abundance of posts and data that social media outlets receive daily, it would be beneficial to society to use such information to detect potential indications of mental health disorders, such as depression, and generate targeted advertisements that provide support and resources for the users who may be in need of them.
 
 For my project, Twitter is the stakeholder and has asked me to utilize existing tweets from their platform to create a model that detects potential signs of depression through language patterns. Twitter then plans to put this model into practice by distributing mental health resources using the process of targeted advertising.
 
@@ -66,7 +66,7 @@ The following models were used on the testing set:
 
 ### Why Model 3a?
 
-With recall being the primary metric, the best models are Models 2a and 3a. More specifically, Model 2a has a recall of 98.65% (8 false negatives), and Model 3a has a recall of 98.99% (6 false negatives). Despite Model 3a having 2 fewer false negatives, I contemplated making my final model Model 2a rather than Model 3a due to the fact that it has no false positives while Model 3a has 91 false positives. In other words, Model 2a minimizes both false negatives and false positives. Furthermore, there is not much difference in the recall percentages of the two models, and a difference of 2 false negatives does not seem too significant. Nevertheless, after doing some sample tweets, I decided that my final model is Model 3a. While both models were flawed with some of the sample tweets, the specific examples that led me to this decision are "I want to die", "Kill me", and "I need help." If anyone were to see these tweets, they would likely believe that the user is potentially struggling with depression or other mental health concerns, so when Model 2a did not pick up on such patterns, I decided that Model 3a is better.
+With recall being the primary metric, the best models are Models 2a and 3a. More specifically, Model 2a has a recall of 98.65% (8 false negatives), and Model 3a has a recall of 98.99% (6 false negatives). Despite Model 3a having 2 fewer false negatives, I contemplated making my final model Model 2a rather than Model 3a due to the fact that it has no false positives while Model 3a has 91 false positives. In other words, Model 2a minimizes both false negatives and false positives. Furthermore, there is not much difference in the recall percentages of the two models, and a difference of 2 false negatives does not seem too significant. Nevertheless, after doing some sample tweets, I decided that my final model is Model 3a. While both models were flawed with some of the sample tweets, the specific examples that led me to this decision are "I want to die," "Kill me," and "I need help." If anyone were to see these tweets, they would likely believe that the user is potentially struggling with depression or other mental health concerns, so when Model 2a did not pick up on such patterns, I decided that Model 3a was better.
 
 ### Final Model Confusion Matrix
 
@@ -84,8 +84,8 @@ With recall being the primary metric, the best models are Models 2a and 3a. More
 
 ### Limitations
 
-- The model fails to understand slang words such as 'emo' and 'depro'
-- The model also fails to properly interpret negation in statements such as, "I am NOT depressed" or "I am NOT okay"
+- The model fails to understand slang words such as 'emo' and 'depro.'
+- The model also fails to properly interpret negation in statements such as, "I am NOT depressed" or "I am NOT okay."
 - These two limitations likely root from the fact that this dataset contains only 10,313 tweets meaning that the model is limited and cannot capture every pattern of text/language that exists online.
 
 ### Next Steps
@@ -94,13 +94,13 @@ If I had access to more data, I would do the following:
 
 - Acquire a larger dataset
 - Acquire more data that accounts for slang words
-- Develop models that incorporates other languages
+- Develop models that incorporate other languages
 
 ## Mental Health Resources
 
 **United States Suicide and Crisis Lifeline (24/7):** Call 988 (No data charges)
 
-**NAMI HelpLine (M-F, 10am - 10pm, ET):** Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at <a href="mailto:helpline@nami.org">helpline@nami.org</a> 
+**NAMI HelpLine (M-F, 10 am - 10 pm, ET):** Call 1-800-950-NAMI (6264), Text "HelpLine" to 62640, or Email at <a href="mailto:helpline@nami.org">helpline@nami.org</a> 
 
 
 **SAMHSA’s (Substance Abuse and Mental Health Services Administration) National Helpline (24/7):** Call 1-800-662-HELP (4357)
