@@ -33,10 +33,12 @@ The data that I used for this project comes from a dataset from [Kaggle](https:/
 
 ### Visualizing Word Frequency in the Dataset
 
+**_Word Cloud_**
 <p align = 'center'>
   <img width = '670' height = '580' src="https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/word_cloud.png"> 
 </p>
 
+**_Bar Chart of Top 10 Words_**
 ![word_freq.png](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/word_freq.png)
 
 ## Modeling
