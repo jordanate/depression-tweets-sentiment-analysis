@@ -113,7 +113,7 @@ If I had access to more data, I would do the following:
 
 For a full analysis, please look at my [Jupyter Notebook](./sentiment-analysis-phase-4-project.ipynb)
 
-For a more concise summary, please review my [presentation]().
+For a more concise summary, please review my [presentation](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/presentation.pdf).
 
 For any additional questions, please contact Jordana Tepper at <a href="mailto:jtepper724@gmail.com">jtepper724@gmail.com</a> 
 
