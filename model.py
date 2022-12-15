@@ -1,6 +1,7 @@
 import streamlit as st
 st.set_page_config(layout="wide")
 import pickle
+from imblearn.over_sampling import SMOTE
 
 from PIL import Image
 import nltk
