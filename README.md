@@ -124,10 +124,11 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ├── data
 ├── images
 ├── .gitignore
+├── .jovianrc
 ├── README.md
 ├── model.py
 ├── model3a.pkl
 ├── presentation.pdf
 ├── requirements.txt
-└── sentiment-analysis-phase-4-project.ipynb
+└── depression-tweets-sentiment-analysis.ipynb
 ```
