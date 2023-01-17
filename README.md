@@ -1,4 +1,4 @@
-# Phase 4 Project - Sentiment Analysis of Depression in Tweets
+# Sentiment Analysis of Depression in Tweets
 ![images/depression_social_media.jpg](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/depression_social_media.jpg)
 
 ### Deployed Model
