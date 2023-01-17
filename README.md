@@ -126,9 +126,9 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ├── .gitignore
 ├── .jovianrc
 ├── README.md
+├── depression-tweets-sentiment-analysis.ipynb
 ├── model.py
 ├── model3a.pkl
 ├── presentation.pdf
-├── requirements.txt
-└── depression-tweets-sentiment-analysis.ipynb
+└── requirements.txt
 ```
