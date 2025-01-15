@@ -1,9 +1,9 @@
 # Sentiment Analysis of Depression in Tweets
 ![images/depression_social_media.jpg](https://github.com/jordanate/sentiment-analysis-phase-4-project/blob/main/images/depression_social_media.jpg)
 
-### Deployed Model
+<!-- ### Deployed Model
 
-https://jordanate-sentiment-analysis-phase-4-project-model-0ki2uu.streamlit.app/
+https://jordanate-sentiment-analysis-phase-4-project-model-0ki2uu.streamlit.app/ -->
 
 **By:** Jordana Tepper
 
